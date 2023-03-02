@@ -23,6 +23,17 @@ def fibonacci(n: int) -> list:
     return result
 
 
+"""
+To run the tests, the pytest framework needs to be activated.  To activate the
+pytest framework on Pycharm follow these steps:
+> go to Pycharm Settings
+> Expand Tools
+> Expand Python Integrated Tools
+> under Testing section -> Default test runner, select pytest
+> click Fix to install the module if prompted
+"""
+
+
 def test_fibonacci_0() -> None:
     """
     A unit test when the input is 0
